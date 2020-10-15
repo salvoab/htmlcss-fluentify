@@ -212,6 +212,11 @@ div.image-container{
 /* End Main section */
 
 /* Footer section */
+#site-footer{
+  padding: 30px 0;
+  position: relative;
+}
+
 .foot-content::after{
   content: "";
   display: table;
@@ -220,4 +225,23 @@ div.image-container{
 
 .foot-right{
   text-align: right;
+}
+
+.foot-right label{
+  color: #808080;
+}
+
+.foot-right a{
+  padding: 20px;
+}
+
+.foot-right label, .foot-right select{
+  margin-right: 14px;
+}
+
+#help-btn{
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+  padding: 10px;
 }
