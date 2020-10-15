@@ -37,7 +37,7 @@
 }
 
 .mt-20{
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 /* End Utility */
 
@@ -211,6 +211,13 @@ div.image-container{
 }
 /* End Main section */
 
-#site-footer{
-  height: 150px;
+/* Footer section */
+.foot-content::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.foot-right{
+  text-align: right;
 }
