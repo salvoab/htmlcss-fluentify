@@ -24,18 +24,29 @@
 .btn{
   background-color: #7cbb02;
   border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .btn-empty{
   border: 2px solid white;
   border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 /* End Utility */
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 #site-header{
   height: 550px;
 }
 
+/*navbar section*/
 .navbar{
   height: 80px;
   line-height: 80px;
@@ -74,6 +85,40 @@
 .menu-right a:nth-child(3){
   margin-left: 10px;
 }
+/*End navbar section*/
+
+/* Hero section */
+.hero-img{
+  background-image: url("../img/banner_header.png");
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+}
+
+.hero-container{
+  position: relative;
+  /*header_height - nav_height*/
+  height: calc(550px - 80px);
+}
+
+.hero-text{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.hero-text h1{
+  font-size: 44px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.hero-text .btn{
+  padding: 20px;
+}
+/* End Hero section */
 
 #site-main{
   height: 1000px;
