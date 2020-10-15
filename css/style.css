@@ -3,3 +3,55 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Utility */
+.bg-blue{
+  background-color: #0c325a;
+}
+
+.bg-green{
+  background-color: #7cbb02;
+}
+
+.bg-grey{
+  background-color: #d3d3d3;
+}
+
+/* End Utility */
+
+#site-header{
+  height: 550px;
+}
+
+#site-main{
+  height: 1000px;
+}
+
+#site-footer{
+  height: 150px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.col-4{
+  width: 33.33%;
+}
+
+.col-6{
+  width: 50%;
+}
+
+.col-4, .col-6{
+  float: left;
+  padding 20px;
+  border: 1px solid black;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
