@@ -239,6 +239,13 @@ div.image-container{
   margin-right: 14px;
 }
 
+.foot-right select{
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #808080;;
+  color: #808080;
+}
+
 #help-btn{
   position: absolute;
   bottom: 0;
