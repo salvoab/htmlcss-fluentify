@@ -46,6 +46,11 @@ body{
   height: 550px;
 }
 
+.container{
+  width: 80%;
+  margin: auto;
+}
+
 /*navbar section*/
 .navbar{
   height: 80px;
@@ -120,17 +125,24 @@ body{
 }
 /* End Hero section */
 
-#site-main{
-  height: 1000px;
+/* Main section */
+p{
+  color: #808080;
 }
 
-#site-footer{
-  height: 150px;
+#first-row{
+  text-align: center;
+  padding: 20px;
 }
 
-.container{
-  width: 80%;
-  margin: auto;
+#first-row-title{
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#first-row p{
+  font-size: 18px;
 }
 
 .col-4{
@@ -151,4 +163,8 @@ body{
   content: "";
   display: table;
   clear: both;
+}
+/* End Main section */
+#site-footer{
+  height: 150px;
 }
